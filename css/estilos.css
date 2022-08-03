@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-destacados{
+    font-family: 'PT Serif', serif;;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.font-menu{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+
+
+.font-desarrollo{
+    font-family:'PT Serif', serif ;
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+#footer{
+    width: 100%;
+    background-color: black;
+    color: goldenrod;
+    padding: 20px 20px;
+    background-image: url("../css/img/philip-myrtorp-ZUPKOdafxCs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.flex-container{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+/* Eje X*/
+    justify-content: space-evenly;
+/*Eje Y*/
+align-items: center;
+
+    font-size: 3rem;
+    font-family: "poppins", sans-serif;
+    background-color: rgba(97, 88, 88, 0.14);
+    border-radius: 10px;
+    border: 2px solid rgb(27, 27, 25);
+}
+
+.flex-container > *{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(65, 93, 93);
+
+}
+.uno{
+    order: 3;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    font-family: "poppins", sans-serif;
+    background-color: #000;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav__list{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav__list .list__links{
+    padding: 0 15px;
+}
+
+.grid-container{
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+
+    width: 90%;
+    height: 600px;
+    margin: 40px auto;      
+    border: 1px groove black;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 
+    "header header header"
+    "nav    main    aside"
+    "nav    main    aside"
+    "footer footer footer"
+    ;
+    gap: 10px;
+
+
+
+
+
+
+}
+
+.items{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item1{
+    background-color: gold;
+    grid-area: header;
+}
+
+.item2{
+    background-color: darkblue;
+    grid-area: nav;
+}
+
+.item3{
+    background-color: rosybrown;
+    grid-area: main;
+}
+
+.item4{
+    background-color: snow;
+    grid-area: aside;
+
+}
+
+.item5{
+    background-color: black;
+    grid-area: footer;
+}
