@@ -33,7 +33,6 @@
     background-color: black;
     color: goldenrod;
     padding: 20px 20px;
-    background-image: url("../css/img/philip-myrtorp-ZUPKOdafxCs-unsplash.jpg");
     background-size: cover;
     background-position: center;
 
@@ -152,3 +151,5 @@ a{
     background-color: black;
     grid-area: footer;
 }
+
+
