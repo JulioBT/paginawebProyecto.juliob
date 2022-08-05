@@ -38,6 +38,11 @@
 
 }
 
+.footer1{
+    max-width: 100%;
+    height: auto;
+}
+
 .flex-container{
     height: 500px;
     display: flex;
