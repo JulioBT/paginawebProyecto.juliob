@@ -55,7 +55,7 @@ align-items: center;
     border: 2px solid rgb(27, 27, 25);
 }
 
-.flex-container > *{
+.flex-container *{
     padding: 10px;
     margin: 10px;
     border: 1px solid black;
@@ -90,6 +90,11 @@ a{
 
 .nav__list .list__links{
     padding: 0 15px;
+}
+
+.corredores__list{
+    display: flex;
+    
 }
 
 .grid-container{
