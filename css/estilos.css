@@ -92,11 +92,16 @@ a {
 }
 
 .grid-container {
+  margin: 40px auto;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "uno      dos     tres" "cuatro   cinco   seis";
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: "uno      dos" "tres  cuatro" "cinco   seis";
   gap: 16px;
+}
+
+.noticias {
+  justify-content: center;
 }
 
 .items {
@@ -146,7 +151,7 @@ body {
   background-image: url(../css/img/back/nordwood-themes-KcsKWw77Ovw-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-size: cover;
 }
 
