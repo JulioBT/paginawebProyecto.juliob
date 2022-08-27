@@ -187,6 +187,11 @@ background-size: cover;
 
 }
 
+.banderas {
+    image-rendering: auto;
+    image-resolution: 100px;
+}
+
 
 @media (max-width: 768px){
     .grid-container{    
