@@ -99,18 +99,18 @@ a{
 }
 
 .grid-container{
-    margin: 40px auto;      
-
+    margin: 50px auto;      
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(3,1fr);
     grid-template-areas: 
-    "uno      dos"
-    "tres  cuatro"
-    "cinco   seis"
+    "uno"     
+    "dos"
+    "tres"  
+    "cuatro"
+    "cinco"
+    "seis"
 
     ;
-    gap: 16px;
+    gap: 30px;
 
 
 
@@ -130,7 +130,9 @@ justify-content: center;
 }
 
 .items {
+    border-radius: 10px;
     @include item(1px)
+    
     
 }
 .item-1{
@@ -191,7 +193,9 @@ background-size: cover;
     image-rendering: auto;
     image-resolution: 100px;
 }
-
+#demo1{
+    display: none;
+}
 
 @media (max-width: 768px){
     .grid-container{    
@@ -254,7 +258,13 @@ background-size: cover;
 #nav2 {
     display: flex;
 }
-
+#demo {
+    display: none;
+}
+#demo1 {
+    display: flex;
+    display:flow-root
+}
 }
 %placeholder1
 {
@@ -273,3 +283,7 @@ background-size: cover;
     background: red;
     
 }
+.demo1{
+    display: none;
+}
+
