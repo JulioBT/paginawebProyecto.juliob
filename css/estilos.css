@@ -104,7 +104,6 @@ a {
 
 .items {
   border-radius: 10px;
-  border-radius: 1px;
   display: flex;
   justify-content: space-evenly;
 }
@@ -221,8 +220,27 @@ body {
 .demo1 {
   display: none;
 }
-.text.noticias {
-  display: inline;
+.text.noticias1 {
+
+
+  display: flex;
   text-align: center;
+  align-items: center;
 }
+
+
+.texto2 {
+  
+  margin: 20px;
+  width: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.titulo {
+  margin: 20px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
